@@ -1,0 +1,399 @@
+question,final_answer,enhanced_prompt,enhanced_completion,target_language,target_language_code,difficulty,original_context,solution,topic
+Differentiate x^2 + 3x + 2.,2x + 3,,"To differentiate the function $f(x) = x^2 + 3x + 2$, we apply the **Power Rule** and the **Constant Rule** of differentiation to each term individually.
+
+The rules used are:
+1.  **Power Rule**: $\frac{d}{dx}(x^n) = nx^{n-1}$
+2.  **Constant Multiple Rule**: $\frac{d}{dx}(cx) = c$
+3.  **Constant Rule**: $\frac{d}{dx}(c) = 0$
+
+**Step-by-step differentiation:**
+
+1.  **Differentiate $x^2$**:
+    Using the Power Rule where $n=2$:
+    $$ \frac{d}{dx}(x^2) = 2x^{2-1} = 2x $$
+
+2.  **Differentiate $3x$**:
+    Using the Constant Multiple Rule (or Power Rule where $n=1$):
+    $$ \frac{d}{dx}(3x) = 3 \cdot \frac{d}{dx}(x^1) = 3 \cdot 1x^{1-1} = 3 \cdot 1 = 3 $$
+
+3.  **Differentiate $2$**:
+    Using the Constant Rule, the derivative of any constant is zero:
+    $$ \frac{d}{dx}(2) = 0 $$
+
+**Combine the results:**
+$$ \frac{d}{dx}(x^2 + 3x + 2) = 2x + 3 + 0 $$
+
+**Final Answer:**
+$$ 2x + 3 $$",original,original,Beginner,"Differential Calculus
+
+Beginner","Using the power rule, derivative of x^2 is 2x, derivative of 3x is 3, and derivative of 2 is 0.",Differential Calculus
+"[[2,3],[1,4]] का सारणिक ज्ञात कीजिए।",5,,"दिए गए आव्यूह (Matrix) का सारणिक (Determinant) ज्ञात करने के लिए, हमें $2 \times 2$ आव्यूह के सूत्र का उपयोग करना होगा।
+
+माना कि दिया गया आव्यूह $A$ है:
+$$A = \begin{bmatrix} 2 & 3 \\ 1 & 4 \end{bmatrix}$$
+
+किसी भी $2 \times 2$ आव्यूह $\begin{bmatrix} a & b \\ c & d \end{bmatrix}$ का सारणिक निम्नलिखित सूत्र द्वारा निकाला जाता है:
+$$|A| = ad - bc$$
+
+यहाँ मान हैं:
+*   $a = 2$
+*   $b = 3$
+*   $c = 1$
+*   $d = 4$
+
+अब इन मानों को सूत्र में रखने पर:
+$$|A| = (2 \times 4) - (3 \times 1)$$
+$$|A| = 8 - 3$$
+$$|A| = 5$$
+
+अतः, दिए गए आव्यूह का सारणिक **5** है।",Hindi,hi,Intermediate,"Matrices
+
+Intermediate","For a 2x2 matrix, determinant = ad - bc = (2*4) - (3*1) = 8-3.",Matrices
+x^2 + 3x + 2 का अवकलन करें।,2x + 3,,"दिए गए व्यंजक $x^2 + 3x + 2$ का अवकलन (differentiation) ज्ञात करने के लिए, हम चर $x$ के सापेक्ष प्रत्येक पद का अलग-अलग अवकलन करेंगे। इसके लिए हम घात नियम (Power Rule) का उपयोग करेंगे, जिसके अनुसार $\frac{d}{dx}(x^n) = nx^{n-1}$ होता है।
+
+सबसे पहले, पहले पद $x^2$ का अवकलन करते हैं। यहाँ $n=2$ है, इसलिए यह $2x^{2-1} = 2x$ बन जाएगा।
+
+अगला, दूसरे पद $3x$ का अवकलन करते हैं। चूँकि $x$ की घात 1 है ($x^1$), इसलिए इसका अवकलन $1 \cdot 3x^{1-1} = 3x^0 = 3$ होगा (क्योंकि $x^0 = 1$)।
+
+अंत में, तीसरा पद एक अचर (constant) संख्या $2$ है। किसी भी अचर संख्या का अवकलन हमेशा शून्य होता है, इसलिए $\frac{d}{dx}(2) = 0$ होगा।
+
+अब इन सभी परिणामों को जोड़ने पर:
+$$ \frac{d}{dx}(x^2 + 3x + 2) = 2x + 3 + 0 $$
+
+**अंतिम उत्तर:**
+$$ 2x + 3 $$",Hindi,hi,Beginner,"अवकलन कलन
+
+शुरुआती","Using the power rule, derivative of x^2 is 2x, derivative of 3x is 3, and derivative of 2 is 0.",Differential Calculus
+2x + y = 5 और x - y = 1 को हल करें।,"x = 2, y = 1",,"दी गई रैखिक समीकरणों की प्रणाली को **गॉस विलोपन (Gaussian Elimination)** विधि का उपयोग करके हल करने के लिए, हम सबसे पहले इन समीकरणों को एक वर्धित मैट्रिक्स (Augmented Matrix) के रूप में लिखेंगे।
+
+दी गई समीकरणें हैं:
+1. $2x + y = 5$
+2. $x - y = 1$
+
+### चरण 1: वर्धित मैट्रिक्स बनाना
+समीकरणों के गुणांकों और स्थिरांकों को लेकर हम निम्नलिखित मैट्रिक्स बनाते हैं:
+$$
+\left[ \begin{array}{cc|c}
+2 & 1 & 5 \\
+1 & -1 & 1
+\end{array} \right]
+$$
+यहाँ पहली पंक्ति ($R_1$) पहली समीकरण को और दूसरी पंक्ति ($R_2$) दूसरी समीकरण को दर्शाती है।
+
+### चरण 2: पंक्ति संक्रियाएँ (Row Operations)
+हमारा लक्ष्य मैट्रिक्स को ऊपरी त्रिभुजाकार रूप (Upper Triangular Form) में बदलना है, ताकि नीचे बाएं कोने में शून्य आ जाए।
+
+सबसे पहले, गणना को आसान बनाने के लिए, हम पंक्ति 1 ($R_1$) और पंक्ति 2 ($R_2$) को आपस में बदल देते हैं ताकि $x$ का गुणांक 1 हो जाए:
+$$
+R_1 \leftrightarrow R_2
+$$
+$$
+\left[ \begin{array}{cc|c}
+1 & -1 & 1 \\
+2 & 1 & 5
+\end{array} \right]
+$$
+
+अब, हमें दूसरी पंक्ति के पहले स्तंभ (column) में शून्य लाना है। इसके लिए हम पहली पंक्ति को 2 से गुणा करके दूसरी पंक्ति में से घटाएंगे ($R_2 \rightarrow R_2 - 2R_1$):
+
+*   नया $R_2$ (पहला तत्व): $2 - 2(1) = 0$
+*   नया $R_2$ (दूसरा तत्व): $1 - 2(-1) = 1 + 2 = 3$
+*   नया $R_2$ (तीसरा तत्व): $5 - 2(1) = 5 - 2 = 3$
+
+मैट्रिक्स अब इस प्रकार दिखेगा:
+$$
+\left[ \begin{array}{cc|c}
+1 & -1 & 1 \\
+0 & 3 & 3
+\end{array} \right]
+$$
+
+### चरण 3: पश्च प्रतिस्थापन (Back Substitution)
+अब मैट्रिक्स सरल रूप में आ गया है। हम इसे वापस समीकरणों में बदलकर हल करेंगे।
+
+दूसरी पंक्ति से हमें मिलता है:
+$$0x + 3y = 3$$
+$$3y = 3$$
+$$y = 1$$
+
+अब $y$ का मान पहली पंक्ति की समीकरण में रखते हैं:
+$$1x - 1y = 1$$
+$$x - (1) = 1$$
+$$x = 1 + 1$$
+$$x = 2$$
+
+### अंतिम उत्तर
+समीकरणों का हल है:
+**$x = 2$ और $y = 1$**
+
+*(जाँच: $2(2) + 1 = 5$ और $2 - 1 = 1$, जो कि सही है।)*",Hindi,hi,Beginner,"गॉस विलोपन
+
+शुरुआती","Swap rows and apply R2 = R2 - 2R1. We get 3y = 3, so y = 1. Substitute to get x = 2.",Gauss Elimination
+"Add matrices [[1,2],[3,4]] and [[5,6],[7,8]].","[[6,8],[10,12]]",,"To add two matrices, you simply add the corresponding elements from each matrix together. Both matrices must have the same dimensions, which these do ($2 \times 2$).
+
+Let's define the two matrices:
+$$
+A = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}, \quad B = \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix}
+$$
+
+The addition process is as follows:
+$$
+A + B = \begin{bmatrix} 1+5 & 2+6 \\ 3+7 & 4+8 \end{bmatrix}
+$$
+
+Now, calculate the sum for each position:
+- **Top-left**: $1 + 5 = 6$
+- **Top-right**: $2 + 6 = 8$
+- **Bottom-left**: $3 + 7 = 10$
+- **Bottom-right**: $4 + 8 = 12$
+
+Putting these values back into the matrix structure gives the final result:
+
+$$
+\begin{bmatrix} 6 & 8 \\ 10 & 12 \end{bmatrix}
+$$",original,original,Beginner,"Matrices
+
+Beginner","Add corresponding elements: 1+5=6, 2+6=8, 3+7=10, 4+8=12.",Matrices
+Solve 2x + y = 5 and x - y = 1.,"x = 2, y = 1",,"To solve the system of linear equations using **Gauss Elimination**, we will follow these steps: write the augmented matrix, perform row operations to get it into row-echelon form (upper triangular), and then use back-substitution to find the values of $x$ and $y$.
+
+The given system is:
+1. $2x + y = 5$
+2. $x - y = 1$
+
+### Step 1: Write the Augmented Matrix
+First, we represent the system as an augmented matrix $[A|B]$, where the left side contains the coefficients of the variables and the right side contains the constants.
+
+$$
+\left[\begin{array}{cc|c}
+2 & 1 & 5 \\
+1 & -1 & 1
+\end{array}\right]
+$$
+
+### Step 2: Perform Row Operations
+Our goal is to create a **zero** in the bottom-left position (Row 2, Column 1) to achieve an upper triangular form.
+
+Currently, the pivot in Row 1 is $2$, and the element below it is $1$. To eliminate the $1$, we can swap the rows first to make the arithmetic simpler (optional but often easier), or we can directly calculate. Let's swap Row 1 ($R_1$) and Row 2 ($R_2$) so that the leading coefficient is $1$.
+
+**Operation:** $R_1 \leftrightarrow R_2$
+
+$$
+\left[\begin{array}{cc|c}
+1 & -1 & 1 \\
+2 & 1 & 5
+\end{array}\right]
+$$
+
+Now, we need to eliminate the $2$ in the second row. We can do this by subtracting 2 times Row 1 from Row 2.
+
+**Operation:** $R_2 \rightarrow R_2 - 2R_1$
+
+Calculations for Row 2:
+- Column 1: $2 - 2(1) = 0$
+- Column 2: $1 - 2(-1) = 1 + 2 = 3$
+- Constant: $5 - 2(1) = 5 - 2 = 3$
+
+The new matrix is:
+$$
+\left[\begin{array}{cc|c}
+1 & -1 & 1 \\
+0 & 3 & 3
+\end{array}\right]
+$$
+
+This matrix is now in **row-echelon form** (upper triangular).
+
+### Step 3: Back-Substitution
+Now we convert the matrix rows back into equations to solve for the variables, starting from the bottom row.
+
+**From Row 2:**
+$$0x + 3y = 3$$
+$$3y = 3$$
+Divide by 3:
+$$y = 1$$
+
+**From Row 1:**
+$$1x - 1y = 1$$
+Substitute $y = 1$ into this equation:
+$$x - 1 = 1$$
+Add 1 to both sides:
+$$x = 2$$
+
+### Final Conclusion
+The solution to the system of equations is:
+$$x = 2, \quad y = 1$$
+
+**Verification:**
+- Equation 1: $2(2) + 1 = 4 + 1 = 5$ (Correct)
+- Equation 2: $2 - 1 = 1$ (Correct)",original,original,Beginner,"Gauss Elimination
+
+Beginner","Swap rows and apply R2 = R2 - 2R1. We get 3y = 3, so y = 1. Substitute to get x = 2.",Gauss Elimination
+Solve 2x + y = 5 and x - y = 1.,"x = 2, y = 1",,"To solve the system of linear equations using **Gauss Elimination**, we will follow these steps: write the augmented matrix, perform row operations to get it into row-echelon form, and then use back-substitution to find the values of $x$ and $y$.
+
+### Step 1: Write the Augmented Matrix
+First, we extract the coefficients and constants from the given equations:
+1. $2x + y = 5$
+2. $x - y = 1$
+
+The augmented matrix is:
+$$
+\left[\begin{array}{cc|c}
+2 & 1 & 5 \\
+1 & -1 & 1
+\end{array}\right]
+$$
+
+### Step 2: Perform Row Operations
+Our goal is to create a **zero** in the bottom-left position (Row 2, Column 1) to achieve an upper triangular form.
+
+**Operation:** We can swap Row 1 ($R_1$) and Row 2 ($R_2$) to make the math simpler (getting a 1 in the top-left pivot position), or we can directly eliminate the $x$ term in the second row. Let's swap them first for clarity, as it avoids fractions early on.
+
+Swap $R_1 \leftrightarrow R_2$:
+$$
+\left[\begin{array}{cc|c}
+1 & -1 & 1 \\
+2 & 1 & 5
+\end{array}\right]
+$$
+
+Now, eliminate the $2$ in the second row. We do this by subtracting 2 times Row 1 from Row 2 ($R_2 \rightarrow R_2 - 2R_1$).
+
+Calculations for $R_2$:
+- Column 1: $2 - 2(1) = 0$
+- Column 2: $1 - 2(-1) = 1 + 2 = 3$
+- Constant: $5 - 2(1) = 3$
+
+The new matrix is:
+$$
+\left[\begin{array}{cc|c}
+1 & -1 & 1 \\
+0 & 3 & 3
+\end{array}\right]
+$$
+
+This matrix is now in **row-echelon form**.
+
+### Step 3: Back-Substitution
+Now we convert the matrix rows back into equations to solve for the variables.
+
+From the second row ($0x + 3y = 3$):
+$$
+3y = 3
+$$
+Divide by 3:
+$$
+y = 1
+$$
+
+Now substitute $y = 1$ into the equation from the first row ($1x - 1y = 1$):
+$$
+x - (1) = 1
+$$
+Add 1 to both sides:
+$$
+x = 2
+$$
+
+### Final Conclusion
+The solution to the system of equations is:
+$$
+x = 2, \quad y = 1
+$$
+
+**Verification:**
+- Equation 1: $2(2) + 1 = 4 + 1 = 5$ (Correct)
+- Equation 2: $2 - 1 = 1$ (Correct)",English (India),en-Latn-IN,Beginner,"Gauss Elimination
+
+Beginner","Swap rows and apply R2 = R2 - 2R1. We get 3y = 3, so y = 1. Substitute to get x = 2.",Gauss Elimination
+"मैट्रिक्स [[1,2],[3,4]] और [[5,6],[7,8]] को जोड़ें।","[[6,8],[10,12]]",,"दिए गए दोनों मैट्रिक्स को जोड़ने के लिए, हमें संगत स्थानों (corresponding positions) पर मौजूद संख्याओं को जोड़ना होगा।
+
+दिए गए मैट्रिक्स हैं:
+$$ A = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}, \quad B = \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix} $$
+
+जोड़ने की प्रक्रिया इस प्रकार होगी:
+1.  **पहली पंक्ति, पहला स्तंभ:** $1 + 5 = 6$
+2.  **पहली पंक्ति, दूसरा स्तंभ:** $2 + 6 = 8$
+3.  **दूसरी पंक्ति, पहला स्तंभ:** $3 + 7 = 10$
+4.  **दूसरी पंक्ति, दूसरा स्तंभ:** $4 + 8 = 12$
+
+इन मानों को नए मैट्रिक्स में रखने पर:
+$$ \begin{bmatrix} 1+5 & 2+6 \\ 3+7 & 4+8 \end{bmatrix} = \begin{bmatrix} 6 & 8 \\ 10 & 12 \end{bmatrix} $$
+
+**अंतिम उत्तर:**
+$$ \begin{bmatrix} 6 & 8 \\ 10 & 12 \end{bmatrix} $$",Hindi,hi,Beginner,"Matrices
+
+Beginner","Add corresponding elements: 1+5=6, 2+6=8, 3+7=10, 4+8=12.",Matrices
+"Find the magnitude of vector (3,4).",5,,"To find the magnitude of the vector $\mathbf{v} = (3, 4)$, we use the distance formula (or the Pythagorean theorem) for vectors in a 2D plane.
+
+### Step-by-Step Deduction
+
+1.  **Identify the components**:
+    Let the vector be $\mathbf{v} = (x, y)$.
+    Here, $x = 3$ and $y = 4$.
+
+2.  **Recall the magnitude formula**:
+    The magnitude of a vector $\mathbf{v} = (x, y)$, denoted as $|\mathbf{v}|$ or $\|\mathbf{v}\|$, is calculated as:
+    $$|\mathbf{v}| = \sqrt{x^2 + y^2}$$
+
+3.  **Substitute the values into the formula**:
+    $$|\mathbf{v}| = \sqrt{3^2 + 4^2}$$
+
+4.  **Calculate the squares**:
+    $$3^2 = 9$$
+    $$4^2 = 16$$
+
+5.  **Add the results**:
+    $$|\mathbf{v}| = \sqrt{9 + 16}$$
+    $$|\mathbf{v}| = \sqrt{25}$$
+
+6.  **Calculate the square root**:
+    $$|\mathbf{v}| = 5$$
+
+### Final Conclusion
+
+The magnitude of the vector $(3, 4)$ is **5**.",original,original,Beginner,"Vectors
+
+Beginner",Magnitude = sqrt(3^2 + 4^2) = sqrt(9+16) = sqrt(25).,Vectors
+"Find the determinant of [[2,3],[1,4]].",5,,"To find the determinant of the $2 \times 2$ matrix $\begin{bmatrix} 2 & 3 \\ 1 & 4 \end{bmatrix}$, we follow these steps:
+
+### Step 1: Identify the elements
+For a general $2 \times 2$ matrix:
+$$
+A = \begin{bmatrix} a & b \\ c & d \end{bmatrix}
+$$
+The determinant is calculated using the formula:
+$$
+\det(A) = ad - bc
+$$
+
+In your specific matrix:
+*   $a = 2$
+*   $b = 3$
+*   $c = 1$
+*   $d = 4$
+
+### Step 2: Apply the formula
+Substitute the values into the formula $ad - bc$:
+1.  Calculate the product of the main diagonal ($a \times d$):
+    $$2 \times 4 = 8$$
+2.  Calculate the product of the other diagonal ($b \times c$):
+    $$3 \times 1 = 3$$
+3.  Subtract the second product from the first:
+    $$8 - 3 = 5$$
+
+### Final Conclusion
+The determinant of the matrix is **5**.",original,original,Intermediate,"Matrices
+
+Intermediate","For a 2x2 matrix, determinant = ad - bc = (2*4) - (3*1) = 8-3.",Matrices
+"सदिश (3,4) का परिमाण ज्ञात कीजिए।",5,,"दिए गए सदिश (वेक्टर) $\vec{v} = (3, 4)$ का परिमाण (magnitude) ज्ञात करने के लिए, हम पाइथागोरस प्रमेय का उपयोग करते हैं। किसी भी द्वि-विमीय सदिश $(x, y)$ का परिमाण सूत्र $|\vec{v}| = \sqrt{x^2 + y^2}$ द्वारा निकाला जाता है।
+
+यहाँ $x = 3$ और $y = 4$ है। इन मानों को सूत्र में रखने पर:
+
+$$|\vec{v}| = \sqrt{3^2 + 4^2}$$
+$$|\vec{v}| = \sqrt{9 + 16}$$
+$$|\vec{v}| = \sqrt{25}$$
+$$|\vec{v}| = 5$$
+
+अतः, सदिश $(3, 4)$ का परिमाण **5** है।",Hindi,hi,Beginner,"वेक्टर
+
+शुरुआती",Magnitude = sqrt(3^2 + 4^2) = sqrt(9+16) = sqrt(25).,Vectors
