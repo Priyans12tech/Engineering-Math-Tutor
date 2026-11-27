@@ -34,3 +34,27 @@ An AI-powered Engineering Mathematics Tutor designed for B.Tech first-year stude
 
 ## Project Goal
 To make Engineering Mathematics easier to understand through accessible, step-by-step AI tutoring.
+
+## Dataset Files
+
+### 1. Original Dataset
+File: `math_dataset.jsonl`
+
+Contains the initial 5 Engineering Mathematics question-answer examples created for this project.
+
+### 2. Improved Dataset
+File: `clean_math_dataset.csv`
+
+Contains 11 rows produced after processing the original dataset using Adaption Labs. It includes enhanced explanations and localized English and Hindi content.
+
+### Dataset Improvement Process
+The original dataset was processed using Adaption's Translate and Localize workflow for India (English) and Hindi. This improved the explanations and made the content more accessible to students.
+
+### Evaluation Results
+- Original dataset grade: C
+- Improved dataset grade: B
+- Original score: 6.0
+- Improved score: 7.5
+- Reported improvement: 25%
+
+
