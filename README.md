@@ -72,9 +72,20 @@ Solo participant.
 
 [Open Engineering Mathematics Tutor](https://engineering-math-tutor-64qw9sczweuh4yjgzpelcp.streamlit.app/)
 
+## Data Source
 
+- Original dataset: Created by the project author.
+- No third-party dataset was used.
+- Dataset improvement and localization: Adaption Labs.
+- Topics: Matrices, vectors, differential calculus and basic integration.
 
+## Licence
 
+The project dataset is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) licence.
+
+Others may share and adapt the dataset, provided appropriate credit is given to the original creator.
+
+Licence details: https://creativecommons.org/licenses/by/4.0/
 
 
  
