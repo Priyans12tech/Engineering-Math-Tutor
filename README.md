@@ -68,7 +68,7 @@ Evaluation was performed using Adaption Labs' dataset quality assessment.
 
 1. Clone this repository:
 
-   `git clone YOUR_GITHUB_REPOSITORY_URL`
+git clone https://github.com/Priyans12tech/Engineering-Math-Tutor.git
 
 2. Install dependencies:
 
