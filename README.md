@@ -57,4 +57,24 @@ The original dataset was processed using Adaption's Translate and Localize workf
 - Improved score: 7.5
 - Reported improvement: 25%
 
+## Limitations
 
+- The current dataset covers a limited number of Engineering Mathematics examples.
+- The chatbot uses basic keyword matching to retrieve stored solutions.
+- AI-generated answers may occasionally contain errors and should be verified.
+- More topics and examples can be added in future improvements.
+
+## Team
+Solo participant.
+
+
+## Live Demo
+
+[Open Engineering Mathematics Tutor](https://engineering-math-tutor-64qw9sczweuh4yjgzpelcp.streamlit.app/)
+
+
+
+
+
+
+ 
